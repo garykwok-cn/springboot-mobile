@@ -1,0 +1,19 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: springboot-mobile
+  mobile:
+    sitepreference:
+      enabled: true
+    devicedelegatingviewresolver:
+      enabled: true
+  freemarker:
+    template-loader-path: classpath:/templates
+    suffix: .ftl
+    cache: false
+    charset: UTF-8
+    settings:
+      classic_compatible: true
+      default_encoding: UTF-8
+      template_update_delay: 0
